@@ -1,0 +1,368 @@
+/* RGB */
+/*
+$color1: rgba(16, 69, 71, 1);
+$color2: rgba(75, 83, 88, 1);
+$color3: rgba(114, 112, 114, 1);
+$color4: rgba(175, 146, 157, 1);
+$color5: rgba(210, 214, 239, 1);
+*/
+
+/*GLOBAL PAGE*/
+
+html {
+    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+    height: 100%;
+    position: relative;
+    background: rgba(255, 234, 173, .2);
+    overflow-x: hidden;
+}
+
+
+div.wrapper {
+/*    background-color:rgba(122, 97, 116, 1);*/
+    overflow:hidden;
+}
+
+a{
+ color: rgba(206, 160, 20, 1);   
+    
+}
+h1 {
+    text-decoration: none;
+    color:rgba(114, 112, 114, 1);
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+    font-size: 3em;
+    }
+    
+h2 {
+    font-size: 2em;
+    color:rgba(114, 112, 114, 1);
+    padding: 10px;
+    width:100%;
+    text-indent: 20px;
+    }
+h3 {
+    font-size: 1.5em;
+    width:100%;
+    padding: 5px;
+    text-align: center;
+    line-height: 2;
+    }
+
+p {
+    font-size: 20px;
+    margin: 1em;
+    padding: 20px;
+    line-height: 2;
+    text-indent: 100px;
+}
+    
+
+main {
+    width:70%;
+    float: left;
+    display: block;
+}
+
+aside {	
+    width:30%;
+    float:right;
+    display: block;
+}
+
+aside li {
+    list-style-type: circle; 
+}
+        
+img.desktop {
+    margin: 0 10px 10px 0;
+    width: 30%;
+    float: left;
+    
+    }
+
+/*LOGIN PAGE*/
+
+p.login{
+    text-align: center;
+}
+
+ input.login{
+     display:block;
+     height:25px;
+     width: 70%;
+     height: 30px;
+ }
+
+ /* REGISTER PAGE */
+
+ p.register{
+     text-align: center;
+     /* margin: 0 auto; */
+ }
+/*INDEX PAGE*/
+
+main.index{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+li.welcome{
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2px 20px;
+    font-size: 2em;
+}
+div.box{
+    text-align: center;
+    float: right;
+    font-size: 8px;
+    margin: 5px;
+    border: solid 3px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.logout{
+    color: rgba(75, 83, 88, 1);
+    display: block;
+    font-weight: bold;
+    text-align: center; 
+    
+}
+
+
+img.index{
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/* SWITCH CSS */
+
+
+    
+h3.switch {
+    font-size: 1em;
+    color: black;
+    padding: 10px;
+    }
+
+p.switch {
+    font-size:2em;
+    margin: 1em;
+    padding: 20px;
+}
+    
+
+main.switch {
+    width:60%;
+    float: left;
+    display: block;
+}
+
+aside.switch {	
+    width:34%;
+    float:right;
+    display: block;
+}
+        
+img{
+    margin: 20px 10px 10px 0;
+    width: 100%;
+    float: right;
+}
+
+
+ul.switch {
+    list-style-type: square;
+    font-family: helvetica; 
+}
+
+
+/*Form CSS*/
+
+span{
+    color:red;
+    display: block;
+    font-family: Bodoni;
+    text-align: left;
+    font-size: 5px;
+    margin: 0 auto;
+}
+
+
+
+form {
+   width: 80%;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+form li{
+    list-style-type:none;
+    margin-left: 20px
+}
+ input[type=text]{
+     display:block;
+     height:25px;
+     width: 70%;
+     height: 30px;
+ }
+
+ input[type=email]{
+     display:block;
+     height:25px;
+     width: 70%;
+     height: 30px;
+ }
+
+ input[type=password]{
+     display:block;
+     height:25px;
+     width: 70%;
+     height: 30px;
+ }
+
+
+ input[type=checkbox]
+ input[type=radio]{
+    margin-right: 5px;
+
+ }
+
+
+ label {
+    margin-bottom:0;
+    padding-bottom: 5px;
+    display: block;
+    font-size: 1em;
+    font-weight:bold;
+    font-family: helvetica; 
+    }
+
+input, select {
+    margin-bottom: 10px;
+}
+
+select{
+    display:block;
+}
+
+
+fieldset{
+    padding: 30px 20px 15px 15px;
+    margin: 0 auto;
+    border: 2px solid #8F5834;
+    width: 80%;
+}
+
+textarea {
+    width: 70%;
+    margin-bottom: 5px;
+    resize: none;
+    height: 100px;
+
+}
+        
+
+    
+
+/*ABOUT PAGE*/
+
+main.about{
+    width: 100%;
+    line-height: 2;
+}
+
+h2.about{
+  color:rgba(114, 112, 114, 1);  
+    
+}
+
+
+img.about {
+    width: 200px;
+    float: left;
+   margin: 30px;
+    padding: 0;
+    
+}  
+
+p.about{
+    display: inline;
+}
+
+li.about{
+    background:  rgba(217, 133, 71, .4);
+    padding: 20px;
+    border-radius: 25px;
+    /* width: 80%; */
+    margin: 30px auto;
+    list-style-type: none;
+   
+    
+     
+}
+
+h3.about {
+    font-size: 1.5em;
+    width:100%;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 10px;
+    padding: 0;
+    margin: 10px auto;
+    }
+
+h4.about{
+    padding: 5px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+
+    
+/*CITIES  */
+
+li.place {
+    list-style-type: none;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+li.info{
+     list-style-type: none;
+    text-indent: 25px;
+}
+
+li.view{
+   padding: 5px;
+    line-height: 1.5;
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+ul.view{
+    background:rgba(217, 133, 71, .4);
+    padding: 20px;
+    border-radius: 25px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+img.view{
+    width: 340px;
+    margin: 0 auto;
+    padding: 10px;
+    position:absolute;
+}
